@@ -87,6 +87,8 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "simple_e_commerce.users",
+    "simple_e_commerce.product",
+    "simple_e_commerce.order",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
