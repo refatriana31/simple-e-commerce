@@ -24,7 +24,7 @@ urlpatterns = [
     path("users/", include("simple_e_commerce.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
-    # ...
+    path("product/", include("simple_e_commerce.product.urls", namespace="product")),
     # Media files
     *static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT),
 ]
